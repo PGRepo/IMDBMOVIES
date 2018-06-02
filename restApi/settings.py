@@ -87,14 +87,14 @@ WSGI_APPLICATION = 'restApi.wsgi.application'
 # }
 
 DATABASES = {
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.mysql',
-    #     'NAME':'imdb_movie_db',
-    #     'USER':'imdb_admin',
-    #     'PASSWORD':'imdb_admin',
-    #     'HOST':'db4free.net',
-    #     'port':'3306',
-    # }
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME':'imdb_movie_db',
+        'USER':'imdb_admin',
+        'PASSWORD':'imdb_admin',
+        'HOST':'db4free.net',
+        'port':'3306',
+    }
 }
 
 
